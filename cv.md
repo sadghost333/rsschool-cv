@@ -7,7 +7,7 @@
 - [LikedIn](https://www.linkedin.com/in/oleksandr-ihnatenko-51250a21b/)
 - [GitHub](https://github.com/sadghost333)
 ## **About myslef**
-*An active and curious young man with a sense of humor. Thanks to this quality, there have never been problems in relations with the team. I easily find a common language with anyone. Purposeful and stubborn in his goals, according to this carefully set installation at 100%. Despite my technical education, for almost half of my life I have been engaged in creativity, in this attempt to approach the solution of a problem in an unconventional and creative way, in order to achieve the already achieved result.*
+### *An active and curious young man with a sense of humor. Thanks to this quality, there have never been problems in relations with the team. I easily find a common language with anyone. Purposeful and stubborn in his goals, according to this carefully set installation at 100%. Despite my technical education, for almost half of my life I have been engaged in creativity, in this attempt to approach the solution of a problem in an unconventional and creative way, in order to achieve the already achieved result.*
 
 ## **Skills and Proficiency:**
 - Experience with Jira and Confluence
