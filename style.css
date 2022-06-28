@@ -1,5 +1,7 @@
  body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'League Gothic', sans-serif;
+    -webkit-text-stroke: 0.5px #000000;
+
  }
 body {
     display: flex;
@@ -8,7 +10,9 @@ body {
   }
 .container {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 0  auto;
+    padding-left: 15px;
+
   }
 .nav-list {
     display: flex;
@@ -35,19 +39,19 @@ html {
 }
 
 .section-item a {
-    color: #ed35f0;
+    color: #ffffff;
     text-decoration: none;  
     transition: color 0.5s;
   }
 .section-item a:hover {
-    color: #753030;
+    color: #ffcc00;
   }
 .main-container {
     display: flex;
     flex-wrap: wrap;
   }
   
-  .section {
+.section {
     width: 50%;
   }
 @media (max-width: 768px) {
@@ -56,31 +60,31 @@ html {
     }
   }
 body {
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 25px;
+    font-weight: normal;
     line-height: 1.5;
-    color: #8d1090;
+    color: #fff700b4;
+    letter-spacing: 1px
 
 }
 
 .section-title {
-    font-size: 25px;
-    font-weight: 900;
+    font-size: 30px;
+    font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #e8c901;
+    color: #ffffff;
   }
 .section-under-title {
-    font-size: 18px;
+    font-size: 23px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #ff9d00;
-    font-style: italic;
+    color: #ffffff;
     justify-content: flex-start;
 }
 .link {
     text-decoration: none;
-    color: #009013;
+    color: #faaf7d;
     transition: color 0.5s;
     box-sizing: border-box;
     position: relative;
@@ -88,10 +92,31 @@ body {
     width: 1200px;
     min-height: 800px;
     transition: 0.5s;
+    font-size: 20px;
+    list-style: none
   }
   
 .link:hover {
-    color: #430086;
-    font-size: 25px;
+    color: #ff9807;
+    font-size: 27px;
     transition: 0.5s;
+    font-style: 900;
   }
+  html {
+    background-image: url("./assets/img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  img {
+    border-radius: 50%;
+    width: 20%;
+    max-width: 20%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    }
