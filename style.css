@@ -1,160 +1,164 @@
- body {
+  html {
+  scroll-behavior: smooth; 
+  }
+
+  body {
     font-family: 'League Gothic', sans-serif;
-    -webkit-text-stroke: 0.5px #000000;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 1.5;
     min-height: 100vh;
     margin:0;
     padding:0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
- }
+    letter-spacing: 1px;
+    color: #fff700b4;
+    background-image: linear-gradient(180deg,#af5eaf,#980098);
+    -webkit-text-stroke: 0.5px #000000;
+  }
 
-.container {
+  header {
+    display: flex;
+    left: 0;
+    width: 100%;
+    border: 3px;
+    border-bottom-left-radius: 10px;
+    position: fixed;
+    border-color: #000000;
+    background-color:#ff9807cd;
+  }
+
+  .container {
     max-width: 1440px;
     margin: 0  auto;
     padding: 0 50px;
-
   }
-.nav-list {
+
+  .nav-list {
+    list-style: none;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin: 0;
-  }
-html {
-    scroll-behavior: smooth; 
-  }
-  .nav-list {
-    list-style: none;
-  }
-.nav-link {
+  } 
+
+  .nav-link {
+    text-decoration: none;
+    font-weight: bold;
     font-size: 25px;
     padding: 0px 10px;
     line-height: 50px;
-    text-decoration: none;
-    font-weight: bold;
     transition: 0.5s;
     color:blueviolet
   }
 
-.nav-link:hover {
-    color:#ffffff;
+  .nav-link:hover {
     font-size: 30px;
     transition: 0.5s;
     -webkit-text-stroke: 0.5px #000000;
-    
-}
+    color:#ffffff;
+  }
 
-.section-item a {
-    color: #ffffff;
-    text-decoration: none;  
-    transition: color 0.5s;
+  main {
+    margin-top: 100px;
   }
-.section-item a:hover {
-    color: #ffcc00;
-  }
-.main-container {
+
+  .main-container {
     display: flex;
     flex-wrap: wrap;
   }
-  
-.section {
-    width: 100%;
-  }
-@media (max-width: 768px) {
-    .section {
-      width: 100%;
-    }
-  }
-body {
-    font-size: 25px;
-    font-weight: normal;
-    line-height: 1.5;
-    color: #fff700b4;
-    letter-spacing: 1px;
 
-}
-
-.section-title {
+  .section-title {
     font-size: 30px;
     font-weight: bold;
-    text-transform: uppercase;
     letter-spacing: 5px;
+    text-transform: uppercase;
     color: #ffffff; 
-}
-.section-title:after {
+  }
+
+  .section-title:after {
     content: '';
     display: block;
     width: 100%;
     height: 3px;
     background-color: #ff9807cd;
+  }
+  
+  .user-avatar {
+    width: 350px;
+  }
+
+  .my-photo {
+    border-style: groove;
+    border-radius: 20px;
+    width: 100%;
+    box-shadow: 5px 5px 8px #000000;
+    border-color: #ffcc00;
+  }
+
+  .section {
+    width: 100%;
+  }
+
+  .section-item a {
+    text-decoration: none;  
+    transition: color 0.5s;
+    color: #ffffff;
+  }
+
+  .section-item a:hover {
+    color: #ffcc00;
+  }
+  
+@media (max-width: 768px) {
+  .section {
+      width: 100%;
     }
+  }
     
-.section-under-title {
+  .section-under-title {
     font-size: 23px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #ffffff;
     justify-content: flex-start;
-}
-.link {
+    color: #ffffff;
+  }
+
+  .link {
+    list-style: none;
     text-decoration: none;
-    color: #faaf7d;
-    transition: color 0.5s;
+    font-size: 20px;
     box-sizing: border-box;
-    position: relative;
-    margin: 0 auto;
     width: 1200px;
     min-height: 800px;
+    margin: 0 auto;
+    position: relative;
     transition: 0.5s;
-    font-size: 20px;
-    list-style: none
+    transition: color 0.5s;
+    color: #faaf7d;
   }
   
-.link:hover {
-    color: #ff9807;
+  .link:hover {
     font-size: 27px;
     transition: 0.5s;
     font-style: 900;
+    color: #ff9807;
   }
-  body {
-    background-image: linear-gradient(180deg,#af5eaf,#980098);
-  }
-  .my-photo {
-    border-style: groove;
-    border-color: #ffcc00;
-    border-radius: 20px;
-    box-shadow: 5px 5px 8px #000000;
-    width: 100%;
 
-  }
-header {
-    background-color:#ff9807cd;
-    border: 3px;
-    border-bottom-left-radius: 10px;
-    border-color: #000000;
-    position: fixed;
-    left: 0;
-    width: 100%;
-    display: flex;  
-  }
-footer {
-    background-color: rgba(255,206,3,0.72); 
-    color: #ffffff;
+  footer {
     display: flex; 
     justify-content: center;
     align-items: center;
     width: 100%;
+    background-color: rgba(255,206,3,0.72); 
+    color: #ffffff;
   }
-footer a,img {
+
+  footer a,img {
     margin: 0;
     padding-left: 15px;
     padding-top: 5px; 
     height: auto;
-}
-.user-avatar {
-    width: 350px;
-  }
-main {
-    margin-top: 100px;
   }
