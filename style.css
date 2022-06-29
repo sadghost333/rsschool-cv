@@ -148,7 +148,8 @@ footer {
   }
 footer a,img {
     margin: 0;
-    padding: 10px; 
+    padding-left: 15px;
+    padding-top: 5px; 
     height: auto;
 }
 .user-avatar {
